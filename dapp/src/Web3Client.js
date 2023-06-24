@@ -4,7 +4,7 @@ import RenterABI from "./ABI/RentalPlatform.json";
 let selectedAccount;
 let rentedContract;
 let isInitialized=false;
-let renterContractAddress="";
+let renterContractAddress="0xB081cf4729a021e0fd988EC13E9e94c7C901d2A3";
 
 export const init= async()=>{
     let provider=window.ethereum;
