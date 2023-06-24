@@ -13,7 +13,7 @@ import DueComponent from "./components/DueComponent";
 import {
   getUserAddress,
   register,
-  getCarshoByStatus,
+  getCarsByStatus,
   getCar,
   getOwner,
   login,
@@ -95,7 +95,7 @@ function App() {
     setlastName(event.target.value);
   }
   return (
-<div className="h-full bg-[url('./assets/background.jpg')] bg-cover bg-center bg-no-repeat">
+<div className="h-full bg-[url('./assets/background.png')] bg-cover bg-center bg-no-repeat">
   {/*Header */}
   <Header loggedIn={loggedIn}/>
    {/* Tittle */}

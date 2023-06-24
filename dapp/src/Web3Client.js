@@ -1,5 +1,5 @@
 import Web3 from "web3";
-import RenterABI from "./ABI/RentalPlatform.json";
+import RenterABI from "./ABI/CarRentalPlatform.json";
 
 let selectedAccount;
 let rentedContract;
@@ -224,7 +224,7 @@ export const login=async()=>{
         return res;
     }
     catch(e){
-        console.error(e);
+        console.error("error: "+ e + selectedAccount);
     }
 };
 export const getCar=async(id)=>{
