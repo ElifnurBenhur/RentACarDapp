@@ -51,3 +51,5 @@ const CarComponent=(props)=>{
         </div>
     );
 };
+
+export default CarComponent;
